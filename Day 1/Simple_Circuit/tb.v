@@ -1,7 +1,7 @@
 module tb;
 reg a,c,b;
 wire y;
-Gate dut(a,c,b,y);
+Circuit dut(a,c,b,y);
 initial 
 begin
     $dumpfile("Gate.vcd");
