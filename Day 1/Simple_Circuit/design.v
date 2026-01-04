@@ -1,4 +1,4 @@
-module Gate(a,c,b,y);
+module Circuit(a,c,b,y);
 input a,c,b;
 output y;
 wire w1,w2,w3,w4;
