@@ -4,7 +4,7 @@ wire y;
 Circuit dut(a,c,b,y);
 initial 
 begin
-    $dumpfile("Gate.vcd");
+    $dumpfile("Circuit.vcd");
     $dumpvars();
     $monitor("a=%b | c=%b | y=%b",a,c,y);
 
